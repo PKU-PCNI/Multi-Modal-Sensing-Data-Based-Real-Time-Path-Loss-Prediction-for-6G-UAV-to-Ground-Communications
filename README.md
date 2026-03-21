@@ -21,7 +21,7 @@ python test_image_pl.py
 ## Citation
 If you find this repo helpful, please cite our paper.
 ```latex
-# @ARTICLE{10614105,
+@ARTICLE{10614105,
   author={Sun, Mingran and Bai, Lu and Huang, Ziwei and Cheng, Xiang},
   journal={IEEE Wireless Communications Letters}, 
   title={Multi-Modal Sensing Data-Based Real-Time Path Loss Prediction for 6G UAV-to-Ground Communications}, 
