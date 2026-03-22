@@ -33,7 +33,7 @@ class Linear_net(nn.Module):
         output = self.output_layer(x)
         return output
 
-test_dir = 'E:\\Desktop\\WCL_code_git\\test'
+test_dir = '.\test'
 BATCH_SIZE = 1
 Test_loader = DataLoader(DataFeed(test_dir,nat_sort=True),batch_size=BATCH_SIZE,shuffle=False,drop_last=True)
 clone = Linear_net()
@@ -58,8 +58,8 @@ for step, (building, label) in enumerate(Test_loader):
     '''inputpath = 'E:\Desktop\Image_pl_Scenario_WI\input_test\input_test' + str(temp) + '.mat'
     inputmat = building.tolist()
     sciio.savemat(inputpath, {'input_test' + str(temp): inputmat})'''
-    labelpath = 'E:\\Desktop\\WCL_code_git\\label_test\\label_test'+ str(temp) +'.mat'
-    outputpath = 'E:\\Desktop\\WCL_code_git\\output_test\\output_test'+ str(temp) +'.mat'
+    labelpath = '.\label_test\\label_test'+ str(temp) +'.mat'
+    outputpath = '.\output_test\\output_test'+ str(temp) +'.mat'
     labelmat = label.tolist()
     outputmat = output.tolist()
     sciio.savemat(labelpath, {'label_test':labelmat})
