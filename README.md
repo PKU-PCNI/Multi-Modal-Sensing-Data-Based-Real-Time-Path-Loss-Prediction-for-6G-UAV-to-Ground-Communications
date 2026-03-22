@@ -9,7 +9,7 @@ M. Sun, L. Bai, Z. Huang, and X. Cheng, “Multi-modal sensing data based real-t
 
 
 ## Get Started
-We have released the model weight for inference in [[Model]](https://pan.baidu.com/s/1r9ERE35G4PcXWdZFuECVmg?pwd=i2kb) with the extraction code i2kb.
+We have released the model weight for inference in [[Model]](https://pan.baidu.com/s/1ewhFuIBm3os6L1n-tviiNw?pwd=p3a3) with the extraction code p3a3.
 
 
 ### Inference command 
