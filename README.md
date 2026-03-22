@@ -7,6 +7,11 @@ M. Sun, L. Bai, Z. Huang, and X. Cheng, “Multi-modal sensing data based real-t
 - NVIDIA GPU/CPU + CUDA 
 - Python packages: `pip install -r requirements.txt`
 
+
+## Get Started
+We have released the model weight for inference in [[Model]](https://pan.baidu.com/s/1r9ERE35G4PcXWdZFuECVmg?pwd=i2kb) with the extraction code i2kb.
+
+
 ### Inference command 
 ```
 python test_image_pl.py
