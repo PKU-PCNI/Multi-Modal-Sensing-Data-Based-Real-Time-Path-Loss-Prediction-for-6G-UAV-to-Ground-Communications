@@ -7,12 +7,6 @@ M. Sun, L. Bai, Z. Huang, and X. Cheng, “Multi-modal sensing data based real-t
 - NVIDIA GPU/CPU + CUDA 
 - Python packages: `pip install -r requirements.txt`
 
-## Dataset Preparation
-The dataset used for inference is available in [[Testing Dataset]](https://pan.baidu.com/s/1KTDpp9-Nk2n85KKtAm5FJg?pwd=ika2) with the extraction code ika2.
-
-## Get Started
-We have released the model weight for inference in [[Model]](https://pan.baidu.com/s/1KTDpp9-Nk2n85KKtAm5FJg?pwd=ika2) with the extraction code ika2.
-
 ### Inference command 
 ```
 python test_image_pl.py
